@@ -1,4 +1,4 @@
-# auto_insure
+# Auto-Insurance Risk Analysis
 
 [20-50 million](https://www.iii.org/fact-statistic/facts-statistics-auto-insurance) people are injured in auto accidents globally with an accrued cost of [$518 billion](https://www.asirt.org/safe-travel/road-safety-facts/). Since the first insurance claim in 1897, car insurance companies have worked to cover the expenses incurred from these incidents -  from property damage, medical expenses, lost wages, to legal fees.
 With these enormous expenses insurance companies are obligated to take any opportunity to optimize their solvency and minimize losses. A large part of this is appropriately pricing policies and coverage, meaning, to not undercharge for drivers that cause catastrophic, costly incidents and not overcharge for safe customers that might never make a claim and could easily switch providers.
