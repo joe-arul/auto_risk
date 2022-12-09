@@ -15,8 +15,9 @@ This establishes a need for our model, as the data has been used to train models
 The data has 205 records and 26 features (15 continuous, 1 integer, and 10 nominal), including the integer outcome ranging from -3 to +3.  
 
 
-Results: 
-(Refer to ([Notebook](https://github.com/joe-arul/auto_risk/blob/main/auto_risk.ipynb)) for detailed analysis)
+**Results:**
+
+(Refer to [Notebook](https://github.com/joe-arul/auto_risk/blob/main/auto_risk.ipynb) for detailed analysis)
 | **Model**                    | **Recall Score** | **Accuracy Score** | **False Negative Rate** | **F-Beta Score** | **ROC AUC Score** |
 |------------------------------|------------------|--------------------|-------------------------|------------------|-------------------|
 | **Decision Tree**            | 1.0              | 0.795              | 0.0                     | 0.913            | 0.821             |
