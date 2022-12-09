@@ -13,3 +13,17 @@ This data from the UCI Machine Learning Repository was donated from Carnegie Mel
 
 This establishes a need for our model, as the data has been used to train models but the results from the Kaggle competition are kept private along with the training test split to compare performances. 
 The data has 205 records and 26 features (15 continuous, 1 integer, and 10 nominal), including the integer outcome ranging from -3 to +3.  
+
+
+Results: 
+(Refer to ([Notebook](https://github.com/joe-arul/auto_risk/blob/main/auto_risk.ipynb)) for detailed analysis)
+| **Model**                    | **Recall Score** | **Accuracy Score** | **False Negative Rate** | **F-Beta Score** | **ROC AUC Score** |
+|------------------------------|------------------|--------------------|-------------------------|------------------|-------------------|
+| **Decision Tree**            | 1.0              | 0.795              | 0.0                     | 0.913            | 0.821             |
+| **Random Forest (Bagging)**  | 1.0              | 0.979              | 0.0                     | 0.990            | 1.0               |
+| **AdaBoost (Boosting)**      | 0.857            | 0.918              | 0.142                   | 0.873            | 0.982             |
+| **GradientBoost (Boosting)** | 1.0              | 0.969              | 0.0                     | 0.986            | 1.0               |
+| **XGBoost (Boosting)**       | 1.0              | 0.969              | 0.0                     | 0.986            | 1.0               |
+| **k-NN**                     | 0.380            | 0.571              | 0.619                   | 0.399            | 0.606             |
+| **Logistic Regression**      | 1.0              | 0.428              | 0.0                     | 0.789            | 0.840             |
+| **Multi-Layer Perceptron**   | 0.952            | 0.816              | 0.047                   | 0.892            | 0.914             |
